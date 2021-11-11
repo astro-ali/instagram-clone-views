@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              width="120px"
+              src="./img/instagram-logo.png"
+              alt="Instagram logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div class="user-logo">
+              <img
+                src="./img/user2.png"
+                alt="User"
+                height="34px"
+                width="34px"
+              />
+            </div>
+            <ul class="navbar-nav mb-2 mb-lg-0 margin-right">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Profile
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="profile.html">View my Profile</a></li>
+                  <li><a class="dropdown-item" href="edit_profile.html">Edit my Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container top-margin">
+        <div class="row view-user-profile">
+          <div class="col-4 d-flex justify-content-center">
+            <div class="profile-page-img">
+              <img
+                src="./img/user2.png"
+                alt="user"
+                width="200px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="profile-username d-flex">
+              <h3>jane_doe13</h3>
+              <button class="btn btn-primary">Follow</button>
+            </div>
+            <div class="profile-counters d-flex">
+              <div class="posts"><b>7 </b>posts</div>
+              <div class="followers"><b>189</b> followers</div>
+              <div class="following"><b>232</b> following</div>
+            </div>
+            <div class="profile-full-name">
+              <h4>Jane Doe</h4>
+            </div>
+            <div class="profile-bio">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="posts-grid container">
+          <div class="row grid-row">
+            <div class="col-4 grid-post test-img">
+              <button class="reset-btn"><img src="./img/landscape.jpg" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-7.png" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-6.jpg" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-6.jpg" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-6.jpg" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-6.jpg" alt="User" /></button>
+            </div>
+            <div class="col-4 grid-post">
+              <button class="reset-btn"><img src="./img/land-6.jpg" alt="User" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

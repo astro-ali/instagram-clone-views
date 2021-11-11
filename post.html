@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Post Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              width="120px"
+              src="./img/instagram-logo.png"
+              alt="Instagram logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div class="user-logo">
+              <img
+                src="./img/user2.png"
+                alt="User"
+                height="34px"
+                width="34px"
+              />
+            </div>
+            <ul class="navbar-nav mb-2 mb-lg-0 margin-right">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Profile
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="profile.html"
+                      >View my Profile</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Edit my Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="feed">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div class="posts">
+              <div class="post instagram-post">
+                <div class="post-user-info">
+                  <div class="user-avatar">
+                    <img
+                      src="./img/user2.png"
+                      alt="User"
+                      height="34px"
+                      width="34px"
+                    />
+                    <p class="d-inline">Jhon Doe</p>
+                  </div>
+                  <div class="user-3dots">
+                    <h3>...</h3>
+                  </div>
+                </div>
+                <div class="post-img">
+                  <img src="./img/post-img.png" alt="Post Img" />
+                </div>
+                <div class="post-reaches d-flex">
+                  <div class="like" id="post-like">
+                    <button class="reset-btn">
+                      <img
+                        id="img-like"
+                        src="./img/heart.png"
+                        alt="Like"
+                        height="40px"
+                        width="40px"
+                      />
+                    </button>
+                  </div>
+                  <div class="comment">
+                    <button class="reset-btn">
+                      <img
+                        src="./img/comment.png"
+                        alt="Comment"
+                        height="40px"
+                        width="40px"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div class="post-like-counter d-flex" id="likeCounter">
+                  <h5>31 likes</h5>
+                </div>
+                <div class="post-caption">
+                  <div class="caption-username">Jhon Doe</div>
+                  <p class="caption-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vero, quia eaque. Possimus fugiat laborum consequuntur
+                    maiores Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Vero, quia eaque. Possimus fugiat laborum consequuntur
+                    maiores
+                  </p>
+                </div>
+                <div class="view-comments">
+                  <div class="comments-counter mt-4">
+                    <h6>23 comments</h6>
+                  </div>
+                  <div class="comments-list mt-4">
+                    <div class="comment-item suggested-user-profile d-flex">
+                      <div class="suggested-user-img">
+                        <img
+                          src="./img/user2.png"
+                          alt="User"
+                          height="50px"
+                          width="50px"
+                        />
+                      </div>
+                      <div class="suggested-user-info">
+                        <button class="reset-btn">
+                          <h6 style="font-weight: 600">Jane Doe.</h6>
+                        </button>
+                        <p
+                          style="color: #000; font-weight: 400; display: block"
+                          class="mt-1"
+                        >
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Qui accusantium dignissimos animi natus.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="comment-item suggested-user-profile d-flex">
+                      <div class="suggested-user-img">
+                        <img
+                          src="./img/user2.png"
+                          alt="User"
+                          height="50px"
+                          width="50px"
+                        />
+                      </div>
+                      <div class="suggested-user-info">
+                        <button class="reset-btn">
+                          <h6 style="font-weight: 600">Jane Doe.</h6>
+                        </button>
+                        <p
+                          style="color: #000; font-weight: 400; display: block"
+                          class="mt-1"
+                        >
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Qui accusantium dignissimos animi natus,
+                          suscipit atque praesentium?.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="comment-item suggested-user-profile d-flex">
+                      <div class="suggested-user-img">
+                        <img
+                          src="./img/user2.png"
+                          alt="User"
+                          height="50px"
+                          width="50px"
+                        />
+                      </div>
+                      <div class="suggested-user-info">
+                        <button class="reset-btn">
+                          <h6 style="font-weight: 600">Jane Doe.</h6>
+                        </button>
+                        <p
+                          style="color: #000; font-weight: 400; display: block"
+                          class="mt-1"
+                        >
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Qui accusantium dignissimos animi natus,
+                          suscipit atque praesentium? Cupiditate.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="comment-item suggested-user-profile d-flex">
+                      <div class="suggested-user-img">
+                        <img
+                          src="./img/user2.png"
+                          alt="User"
+                          height="50px"
+                          width="50px"
+                        />
+                      </div>
+                      <div class="suggested-user-info">
+                        <button class="reset-btn">
+                          <h6 style="font-weight: 600">Jane Doe.</h6>
+                        </button>
+                        <p
+                          style="color: #000; font-weight: 400; display: block"
+                          class="mt-1"
+                        >
+                          Lorem, ipsum dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-none col-lg-4 hide-for-mobile">
+            <div class="my-profile d-flex align-items-center">
+              <div class="profile-img">
+                <img
+                  src="./img/user2.png"
+                  alt="Profile Image"
+                  width="70px"
+                  height="70px"
+                />
+              </div>
+              <div class="user-info">
+                <button class="reset-btn"><h5>jhon_doe23</h5></button>
+                <h6>Jhon Doe</h6>
+              </div>
+            </div>
+            <div class="suggestions">
+              <h5>Suggestions For You</h5>
+              <div class="suggestions-list">
+                <div
+                  class="
+                    suggested-user
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                  "
+                >
+                  <div class="suggested-user-profile d-flex">
+                    <div class="suggested-user-img">
+                      <img
+                        src="./img/user2.png"
+                        alt="User"
+                        height="50px"
+                        width="50px"
+                      />
+                    </div>
+                    <div class="suggested-user-info">
+                      <button class="reset-btn"><h6>Jane Doe</h6></button>
+                      <p>New to instagram</p>
+                    </div>
+                  </div>
+                  <div class="suggested-user-follow-btn">
+                    <button class="reset-btn">Follow</button>
+                  </div>
+                </div>
+                <div
+                  class="
+                    suggested-user
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                  "
+                >
+                  <div class="suggested-user-profile d-flex">
+                    <div class="suggested-user-img">
+                      <img
+                        src="./img/user2.png"
+                        alt="User"
+                        height="50px"
+                        width="50px"
+                      />
+                    </div>
+                    <div class="suggested-user-info">
+                      <button class="reset-btn"><h6>Jane Doe</h6></button>
+                      <p>New to instagram</p>
+                    </div>
+                  </div>
+                  <div class="suggested-user-follow-btn">
+                    <button class="reset-btn">Follow</button>
+                  </div>
+                </div>
+                <div
+                  class="
+                    suggested-user
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                  "
+                >
+                  <div class="suggested-user-profile d-flex">
+                    <div class="suggested-user-img">
+                      <img
+                        src="./img/user2.png"
+                        alt="User"
+                        height="50px"
+                        width="50px"
+                      />
+                    </div>
+                    <div class="suggested-user-info">
+                      <button class="reset-btn"><h6>Jane Doe</h6></button>
+                      <p>New to instagram</p>
+                    </div>
+                  </div>
+                  <div class="suggested-user-follow-btn">
+                    <button class="reset-btn">Follow</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/post.js"></script>
+  </body>
+</html>

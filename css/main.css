@@ -1,0 +1,373 @@
+/* Start Global Styles */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fafafa;
+}
+/* End Global Styles */
+
+/* Start Login page Styles */
+.container-box {
+  height: 100vh;
+  background: #fbfbfb;
+}
+
+.login {
+  width: 400px;
+  padding: 60px 30px;
+  background-color: #fff;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.btn-container {
+  display: flex;
+}
+
+.login-btn {
+  width: auto;
+  background-color: #0095f6;
+  flex: 1;
+  font-weight: 600;
+}
+
+.login-btn:focus {
+  box-shadow: none;
+}
+
+.form-control {
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #959595;
+  background: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+.test {
+  background-color: #0095f6;
+}
+
+.other-options {
+  font-weight: 600;
+}
+
+.instagram-logo img {
+  width: 300px;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.create-account p a {
+  margin-left: 6px;
+}
+/* End Login page Styles */
+
+/* Start register page styles */
+.form-header h3 {
+  font-size: 20px;
+}
+
+.have-account p a {
+  margin-left: 6px;
+}
+/* Start Home page styles */
+
+.top-margin {
+    margin-top: 80px;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.user-logo {
+  margin-right: 10px;
+}
+
+.user-logo img {
+  border-radius: 50%;
+}
+
+.feed {
+  margin-top: 110px;
+}
+
+.instagram-box {
+  padding: 20px 30px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+.instagram-post {
+  padding: 20px 0;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+.create-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-post-text {
+  font-size: 18px;
+}
+
+.create-post-btn button {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.create-post-btn button:focus {
+  box-shadow: none;
+}
+
+.post-user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+.margin-right {
+  margin-right: 40px;
+}
+
+.post-reaches {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  /* background-color: #959595; */
+}
+
+.post-reaches .comment {
+  margin-left: 10px;
+}
+
+.post-like-counter {
+  margin: 15px 35px;
+}
+
+.post-caption {
+  margin: 15px 30px;
+}
+
+.post-caption .caption-username {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.view-comments {
+  margin: 15px 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.reset-btn {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.instagram-post:last-child {
+  margin-bottom: 40px;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  padding: 3px;
+  border: 2px solid #eeeeee;
+}
+
+.my-profile {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  gap: 15px;
+  /* background: #959595; */
+}
+
+.user-info h6 {
+  color: #6d6d6d;
+}
+
+.suggestions {
+  padding: 0 20px;
+}
+
+.suggestions h5 {
+  color: #525252;
+}
+
+.suggestions-list {
+  margin-top: 20px;
+}
+
+.suggested-user {
+  margin-bottom: 20px;
+}
+
+.suggested-user-img img {
+  border-radius: 50%;
+}
+
+.suggested-user-info {
+  margin-left: 15px;
+}
+
+.suggested-user-info button h6 {
+  margin-bottom: 0;
+}
+
+.suggested-user-info p {
+  margin-bottom: 0;
+  color: #959595;
+}
+
+.suggested-user-follow-btn {
+  padding-right: 20px;
+}
+
+.suggested-user-follow-btn button {
+  color: #0095f6;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 960px) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+/* End Home page styles */
+
+/* Start profile page styles */
+
+.view-user-profile {
+    padding-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 60px;
+}
+
+.profile-page-img img {
+    border-radius: 50%;
+}
+
+.profile-username h3 {
+    margin-top: 8px;
+}
+
+.profile-username button {
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 19px;
+    background-color: #0095f6;
+}
+
+.profile-username button:focus {
+    box-shadow: none;
+}
+
+.profile-counters {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.profile-counters div {
+    margin-right: 40px;
+}
+
+.profile-full-name {
+    margin-top: 40px;
+}
+
+.profile-bio {
+    margin-top: 15px;
+    padding-right: 200px;
+}
+
+.posts-grid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  /* background: #0095f6; */
+}
+
+.grid-post {
+  margin-bottom: 40px;
+}
+
+.grid-row {
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+.grid-post img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.edit-profile-btn {
+  background-color: #fafafa;
+}
+
+/* End profile page styles */
+
+/* Start Post page styles */
+
+.comment-item {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* End Post page styles */
+
+/* start testing classes */
+
+.test-grid {
+  background-color: #0095f6;
+}
+
+/* end testing classes */
